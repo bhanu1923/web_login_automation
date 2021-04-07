@@ -12,7 +12,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Build and publish head docker image
-        uses: VaultVulp/gp-docker-action@1.1.7
+        uses: mysql
         with:
           github-token: ${{ secrets.TOKEN }}
           image-name: myjavaapp
